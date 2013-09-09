@@ -1,0 +1,27 @@
+{
+  "name": "angular-auth-interceptor",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bertramdev/angular-auth-interceptor",
+  "authors": [
+    "Andy Warner <awarner@bertramcapital.com>"
+  ],
+  "description": "Listens for 401 response from server and allows user to configure an AJAXy reauthentication flow",
+  "main": "authHandler.js",
+  "keywords": [
+    "auth",
+    "angular",
+    "ajax",
+    "interceptor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "git://github.com/angular-ui/bootstrap-bower.git"
+  }
+}
